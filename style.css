@@ -1,8 +1,15 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  font-size: 30px;
 }
+
+.caja-fixed {
+  background-color: red;
+  position: sticky; /*Mantiene el espacio en la página al contrario del position fixed.
+  si el elemento se encuentra entre 2 elementos al hacer scroll se hace el efecto del fixed y se mantiene arriba*/
+
+}
+
+
